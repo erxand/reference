@@ -9,10 +9,11 @@ jobs:
 
   analyze:
     name: "Analyze"
-    uses: VeryGoodOpenSource/very_good_workflows/.github/workflows/flutter_package.yml@v1
+    #    uses: VeryGoodOpenSource/very_good_workflows/.github/workflows/flutter_package.yml@v1
+    uses: erxand/reference/.github/workflows/no_test_very_good_package.yml@v1
     with:
       flutter_channel: stable
-      flutter_version: TODO_TODO_TODO_TODO
+      flutter_version: CHANGE_ME_CHANGE_ME
 
   build:
     name: Build
@@ -25,7 +26,7 @@ jobs:
         uses: subosito/flutter-action@v2
         with:
           channel: "stable"
-          flutter-version: TODO_TODO_TODO_TODO
+          flutter-version: CHANGE_ME_CHANGE_ME
       - name: 📦 Install Dependencies
         run: |
           flutter pub global activate very_good_cli
@@ -54,6 +55,6 @@ jobs:
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: "${{ secrets.GITHUB_TOKEN }}"
-          firebaseServiceAccount: "${{ secrets.TODO_TODO_TODO_TODO }}"
+          firebaseServiceAccount: "${{ secrets.CHANGE_ME_CHANGE_ME }}"
           channelId: live
-          projectId: TODO_TODO_TODO_TODO
+          projectId: CHANGE_ME_CHANGE_ME
