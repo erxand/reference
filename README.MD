@@ -6,7 +6,7 @@ I made this repo to hold reference files for other projects and files that I'll 
 
 ## Usage
 
-Reference these files like you would any other public file. If you don't know how to do that for your use case, google it or ask your local LLM chatbot.
+Do your due diligence to make sure the necessary aspects are up-to-date for what you need. Reference these files like you would any other public file. If you don't know how to do that for your use case, google it or ask your local LLM chatbot.
 
 ## Contact
 
