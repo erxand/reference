@@ -10,7 +10,7 @@ jobs:
   analyze:
     name: "Analyze"
     #    uses: VeryGoodOpenSource/very_good_workflows/.github/workflows/flutter_package.yml@v1
-    uses: erxand/reference/.github/workflows/no_test_very_good_package.yml@v1
+    uses: erxand/reference/.github/workflows/no_test_very_good_flutter_package.yml@v1
     with:
       flutter_channel: stable
       flutter_version: CHANGE_ME_CHANGE_ME
