@@ -2,28 +2,25 @@
 
 ## Description
 
-I made this repo to hold reference files for other projects or files that I'll reuse in future projects. This is public so any of my projects can access the files easily, but I'm not managing it to be a good reference place for other people. Feel free to take whatever you want from this, but keep in mind it might not be the most updated thing available.
+I made this repo to hold reference files for other projects and files that I'll reuse in future projects. This is public so any of my projects can access the files easily, but I'm not managing it to be a good reference place for other people. Feel free to take whatever you want from this, but keep in mind it might not be the most updated thing available.
 
 ## Usage
 
-Reference these files like you would any other public file. If you don't know how to do that for your use case, google it or ask your local LLM chatbot.
+Do your due diligence to make sure the necessary aspects are up-to-date for what you need. Reference these files like you would any other public file. If you don't know how to do that for your use case, google it or ask your local LLM chatbot.
 
 ## Contact
 
-Feel free to contact me if you have any questions at hunt.xander@gmail.com
+Feel free to contact me for any reason at hunt.xander@gmail.com
 
 ## File Overview
 
 ### `main.yaml`
 
-This file defines a GitHub Action for Flutter projects, it automates Flutter web deployments to Firebase Hosting. It's written for a Flutter project built using very_good CLI. The original version of this file and setup for this type of project can be found at [this article](https://medium.com/@quen09t/automating-flutter-web-deployments-to-firebase-hosting-using-github-actions-4893e4f17135), I found problems with their `main.yaml` so this file contains my adjustments. If you want to use it make sure you swap out the four spots that say `CHANGE_ME_CHANGE_ME`. Here's a brief description of each of these:
+This file defines a GitHub Action for Flutter projects, it automates Flutter web deployments to Firebase Hosting. It's written for Flutter projects built using very_good CLI. The original version of this file and setup for this type of project can be found at [this article](https://medium.com/@quen09t/automating-flutter-web-deployments-to-firebase-hosting-using-github-actions-4893e4f17135), I found problems with their `main.yaml` so this file contains my adjustments. If you want to use it make sure you swap out the four spots that say `CHANGE_ME_CHANGE_ME`. Here's a brief description of each of these:
 
 - Lines 15 and 28 - Flutter version
-
   - Example input: `3.16.3`
-
 - Line 57 - Firebase Service Account
-
   - Example input: `FIREBASE_SERVICE_ACCOUNT_PROJECT_NAME_1ABCD`
   - This is found in your GitHub repo. To access it, go to Settings > Secrets and variables > Actions. It should start with `FIREBASE_SERVICE_ACCOUNT_` and is likely the only line there.
 
