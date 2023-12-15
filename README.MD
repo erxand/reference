@@ -17,9 +17,10 @@ Feel free to contact me if you have any questions at hunt.xander@gmail.com
 ### `main.yaml`
 
 This file defines a GitHub Action for Flutter projects, it automates Flutter web deployments to Firebase Hosting. It's written for a Flutter project built using very_good CLI. The original version of this file and setup for this type of project can be found at [this article](https://medium.com/@quen09t/automating-flutter-web-deployments-to-firebase-hosting-using-github-actions-4893e4f17135), I found problems with their `main.yaml` so this file contains my adjustments. If you want to use it make sure you swap out the four spots that say `CHANGE_ME_CHANGE_ME`. Here's a brief description of each of these:
--Lines 15 and 28 - Flutter version
 
-    - Example input: `3.16.3`
+- Lines 15 and 28 - Flutter version
+
+  - Example input: `3.16.3`
 
 - Line 57 - Firebase Service Account
 
@@ -34,4 +35,4 @@ This file defines a GitHub Action for Flutter projects, it automates Flutter web
 
 ### `no_test_very_good_flutter_package.yml`
 
-This is a copy of [this file](https://github.com/VeryGoodOpenSource/very_good_workflows/blob/main/.github/workflows/flutter_package.yml) but with the "🧪 Run Tests" step taken out.
+This is a copy of [this file](https://github.com/VeryGoodOpenSource/very_good_workflows/blob/main/.github/workflows/flutter_package.yml) but with the "🧪 Run Tests" step commented out.
