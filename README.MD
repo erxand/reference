@@ -2,7 +2,7 @@
 
 ## Description
 
-I made this repo to hold reference files for other projects or files that I'll reuse in future projects. This is public so any of my projects can access the files easily, but I'm not managing it to be a good reference place for other people. Feel free to take whatever you want from this, but keep in mind it might not be the most updated thing available.
+I made this repo to hold reference files for other projects and files that I'll reuse in future projects. This is public so any of my projects can access the files easily, but I'm not managing it to be a good reference place for other people. Feel free to take whatever you want from this, but keep in mind it might not be the most updated thing available.
 
 ## Usage
 
