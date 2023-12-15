@@ -10,7 +10,7 @@ Do your due diligence to make sure the necessary aspects are up-to-date for what
 
 ## Contact
 
-Feel free to contact me if you have any questions at hunt.xander@gmail.com
+Feel free to contact me for any reason at hunt.xander@gmail.com
 
 ## File Overview
 
